@@ -1,6 +1,6 @@
 # Custom
 .DS_Store
-temp
+.venv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
