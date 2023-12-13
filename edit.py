@@ -1,6 +1,6 @@
-# todo: fix tech debt
-
 import re
+
+# todo: fix tech debt
 
 replacements = {
     "Shiny new formula": "API client and GUI app for interacting with Cephalon Intelligence research tools.",
