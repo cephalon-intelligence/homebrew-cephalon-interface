@@ -13,6 +13,6 @@ virtualenv .venv
 source .venv/bin/activate
 pip install cephalon-interface homebrew-pypi-poet
 poet -f cephalon-interface > Formula/cephalon-interface.rb
-python fixes.py
+python edit.py
 deactivate
 rm -rf "./.venv"
