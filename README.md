@@ -19,8 +19,7 @@ The only dependency is [homebrew](https://brew.sh/), which can be installed with
 Install this package via homebrew:
 
 ```sh
-brew tap cephalon-intelligence/cephalon-interface
-brew install cephalon-interface
+brew install cephalon-intelligence/cephalon-interface/cephalon-interface
 ```
 
 ### Upgrade
