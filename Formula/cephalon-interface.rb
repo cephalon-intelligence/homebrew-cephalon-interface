@@ -3,8 +3,8 @@ class CephalonInterface < Formula
 
   desc "API client and GUI app for interacting with Cephalon Intelligence research tools."
   homepage "https://cephalon.systems"
-  url "https://files.pythonhosted.org/packages/b2/57/c238a77dbe580e50e764b45d78026337b0df9b148ed307e443fd08fbb079/cephalon_interface-0.1.1.tar.gz"
-  sha256 "8ebd11577db92f58b760a65152ec53b77e79cebbbb54d4ec67e1bd0b29d807fd"
+  url "https://files.pythonhosted.org/packages/94/20/b63b86673454a6bbff6bcec792cbc9d7b773f9ee1d651640464770b22702/cephalon_interface-0.1.2.tar.gz"
+  sha256 "6ac6492073e75ec4b4a434009254ec6033c5fa375cfbbab88e25294fe9a9a5af"
 
   depends_on "python@3.11"
 
@@ -38,11 +38,6 @@ class CephalonInterface < Formula
     sha256 "9b469f3a900bf28dc19b8cfbf8019bf47f7fdd1a65a1d4ffb98fc14166beb4d1"
   end
 
-  resource "cffi" do
-    url "https://files.pythonhosted.org/packages/68/ce/95b0bae7968c65473e1298efb042e10cafc7bafc14d9e4f154008241c91d/cffi-1.16.0.tar.gz"
-    sha256 "bcb3ef43e58665bbda2fb198698fcae6776483e0c4a631aa5647806c25e02cc0"
-  end
-
   resource "charset-normalizer" do
     url "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz"
     sha256 "f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5"
@@ -51,11 +46,6 @@ class CephalonInterface < Formula
   resource "click" do
     url "https://files.pythonhosted.org/packages/96/d3/f04c7bfcf5c1862a2a5b845c6b2b360488cf47af55dfa79c98f6a6bf98b5/click-8.1.7.tar.gz"
     sha256 "ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de"
-  end
-
-  resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/ce/b3/13a12ea7edb068de0f62bac88a8ffd92cc2901881b391839851846b84a81/cryptography-41.0.7.tar.gz"
-    sha256 "13f93ce9bea8016c253b34afc6bd6a75993e5c40672ed5405a9c832f0d4a00bc"
   end
 
   resource "dateparser" do
@@ -96,11 +86,6 @@ class CephalonInterface < Formula
   resource "jsonschema-specifications" do
     url "https://files.pythonhosted.org/packages/8c/ce/1eb873a0ba153cf327464c752412b42d11b9c889d208beca7ef75540d128/jsonschema_specifications-2023.11.2.tar.gz"
     sha256 "9472fc4fea474cd74bea4a2b190daeccb5a9e4db2ea80efcf7a1b582fc9a81b8"
-  end
-
-  resource "jwt" do
-    url ""
-    sha256 ""
   end
 
   resource "loguru" do
@@ -156,11 +141,6 @@ class CephalonInterface < Formula
   resource "pyarrow" do
     url "https://files.pythonhosted.org/packages/e0/c3/48602ef0a293af9297c0c65cdef8a2339256e485c54a4ff375d3e95d3415/pyarrow-14.0.1.tar.gz"
     sha256 "b8b3f4fe8d4ec15e1ef9b599b94683c5216adaed78d5cb4c606180546d1e2ee1"
-  end
-
-  resource "pycparser" do
-    url "https://files.pythonhosted.org/packages/5e/0b/95d387f5f4433cb0f53ff7ad859bd2c6051051cebbb564f139a999ab46de/pycparser-2.21.tar.gz"
-    sha256 "e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206"
   end
 
   resource "pydantic" do
