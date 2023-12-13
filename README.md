@@ -45,10 +45,9 @@ Uninstall the package:
 brew uninstall cephalon-interface
 ```
 
-
 ## Developer
 
-### Clone
+### Clone Repository
 
 With SSH:
 
@@ -68,25 +67,25 @@ Optionally enter directory:
 cd homebrew-cephalon-interface
 ```
 
-### Build
+### Generate Formula
 
-Build the ruby formula:
+Automatically generate the ruby formula:
 
 ```sh
-./build.sh
+./auto.sh
 ```
 
 If a `permission denied` error is encountered, modify file permissions and make executable:
 
 ```sh
-chmod +x build.sh
+chmod +x auto.sh
 ```
 
-Then rerun `./build.sh`
+Then rerun the `auto.sh` script.
 
 ### Install (Source)
 
-Build
+Build the homebrew package from source:
 
 ```sh
 brew install --build-from-source --verbose --debug Formula/cephalon-interface.rb
