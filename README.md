@@ -93,3 +93,9 @@ Build the homebrew package from source:
 ```sh
 brew install --build-from-source --verbose --debug Formula/cephalon-interface.rb
 ```
+
+Reinstall:
+
+```sh
+brew reinstall --build-from-source --verbose --debug Formula/cephalon-interface.rb
+```
