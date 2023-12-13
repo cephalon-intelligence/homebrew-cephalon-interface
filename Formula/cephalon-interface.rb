@@ -1,8 +1,8 @@
 class CephalonInterface < Formula
   include Language::Python::Virtualenv
 
-  desc "Shiny new formula"
-  homepage "https://github.com/cephalon-intelligence/cephalon-interface"
+  desc "API client and GUI app for interacting with Cephalon Intelligence research tools."
+  homepage "https://cephalon.systems"
   url "https://files.pythonhosted.org/packages/94/20/b63b86673454a6bbff6bcec792cbc9d7b773f9ee1d651640464770b22702/cephalon_interface-0.1.2.tar.gz"
   sha256 "6ac6492073e75ec4b4a434009254ec6033c5fa375cfbbab88e25294fe9a9a5af"
 
