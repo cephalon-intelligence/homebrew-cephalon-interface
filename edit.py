@@ -1,7 +1,7 @@
 replacements = {
     "Shiny new formula": "API client and GUI app for interacting with Cephalon Intelligence research tools.",
     "https://github.com/cephalon-intelligence/cephalon-interface": "https://cephalon.systems",
-    "python3": "python@3.11",
+    'depends_on "python3"': 'depends_on "python@3.11"',
 }
 
 with open("./Formula/cephalon-interface.rb") as file:
