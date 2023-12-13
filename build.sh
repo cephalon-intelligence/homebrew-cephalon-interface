@@ -4,10 +4,11 @@ if [ -d "./.venv" ]; then
     rm -rf "./.venv"
 fi
 
-if [ -d "./Formula/cephalon-interface.rb" ]; then
-    rm "./Formula/cephalon-interface.rb"
+if [ -d "./Formula" ]; then
+    rm -rf "./Formula"
 fi
 
+mkdir "./Formula"
 virtualenv .venv
 source .venv/bin/activate
 pip install cephalon-interface homebrew-pypi-poet
