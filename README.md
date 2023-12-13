@@ -31,6 +31,9 @@ Update/upgrade the package:
 brew upgrade cephalon-interface
 ```
 
+If for some reason this fails, try uninstalling and reinstalling.
+
+
 ### Uninstall
 
 If you're logged in, make sure you log out first:
