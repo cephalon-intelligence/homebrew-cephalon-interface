@@ -1,6 +1,6 @@
 # Notes
 
-## Archived Code
+## Compilation Errors and Pip
 
 Originally this had homebrew-pypi-poet to generate the resource links directly. Ideally, one defines all the dependencies and their checksums in the `.rb` file (which is what poet does). For some reason, doing this causes a cmake compilation error with `ninja`, which in turn is a dependency for `numpy`.
 
