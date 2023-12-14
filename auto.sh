@@ -13,6 +13,7 @@ source .venv/bin/activate
 pip install cephalon-interface homebrew-pypi-poet
 poet -f cephalon-interface > Formula/cephalon-interface.rb
 poet -s pip > temp/pip.rb
+poet -s streamlit > temp/streamlit.rb
 python edit.py
 deactivate
 rm -rf "./temp"
