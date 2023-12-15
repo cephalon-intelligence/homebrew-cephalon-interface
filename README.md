@@ -1,6 +1,6 @@
 # homebrew-cephalon-interface
 
-Version: 0.1.4
+Version: 0.1.5
 
 - This is the homebrew tap for the package: [cephalon-interface](https://github.com/cephalon-intelligence/cephalon-interface)
 - Full documentation can be found at: [cephalon.systems](https://cephalon.systems)
