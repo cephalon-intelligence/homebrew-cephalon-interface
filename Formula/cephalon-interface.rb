@@ -3,19 +3,14 @@ class CephalonInterface < Formula
 
   desc "API client and GUI app for interacting with Cephalon Intelligence research tools."
   homepage "https://cephalon.systems"
-  url "https://files.pythonhosted.org/packages/f0/b2/1d3ffb6205e19dc6276486202458288b6db177a93f9aaeec7a523aa0eb16/cephalon_interface-0.1.4.tar.gz"
-  sha256 "9de3369b411a951b5f04c37ce39f63622c29d533571c5a7e26ae36c09c8eac6c"
+  url "https://files.pythonhosted.org/packages/41/7b/ad4677e2b9914db6353608d44c0664aa61d91540debbd48d220da0a18f9d/cephalon_interface-0.1.5.tar.gz"
+  sha256 "b6f8c9d597ce54e7f690fa736dd750bd9bd29c57e99fe64fc04dfbaef64d6c91"
 
   depends_on "python@3.11"
 
   resource "pip" do
     url "https://files.pythonhosted.org/packages/1f/7f/4da15e07ccd11c84c1ccc8f6e24288d5e76c99441bf80e315b33542db951/pip-23.3.1.tar.gz"
     sha256 "1fcaa041308d01f14575f6d0d2ea4b75a3e2871fe4f9c694976f908768e14174"
-  end
-
-  resource "streamlit" do
-    url "https://files.pythonhosted.org/packages/9d/2d/5273692001363f9534422707a8a8382b7b0b250832fdff473ed992680aa9/streamlit-1.29.0.tar.gz"
-    sha256 "b6dfff9c5e132e5518c92150efcd452980db492a45fafeac3d4688d2334efa07"
   end
 
   def install
