@@ -56,7 +56,6 @@ with open("temp/pip.rb") as file:
     pip_resource = file.read()
 file.close()
 
-
 start, end = get_resource_indices(formula)
 front = "\n".join(formula[:start+1]) + "\n\n" + pip_resource + "\n"
 

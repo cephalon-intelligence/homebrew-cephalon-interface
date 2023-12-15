@@ -13,6 +13,11 @@ class CephalonInterface < Formula
     sha256 "1fcaa041308d01f14575f6d0d2ea4b75a3e2871fe4f9c694976f908768e14174"
   end
 
+  resource "streamlit" do
+    url "https://files.pythonhosted.org/packages/9d/2d/5273692001363f9534422707a8a8382b7b0b250832fdff473ed992680aa9/streamlit-1.29.0.tar.gz"
+    sha256 "b6dfff9c5e132e5518c92150efcd452980db492a45fafeac3d4688d2334efa07"
+  end
+
   def install
     virtualenv_create(libexec, "python3.11")
 
